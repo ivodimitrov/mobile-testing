@@ -17,6 +17,8 @@ dependencies {
     compile group: 'io.appium', name: 'java-client', version: '6.0.0-BETA5'
     compile group: 'io.rest-assured', name: 'rest-assured', version: '3.1.0'
     compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '3.0.2'
+    compile group: 'info.cukes', name: 'cucumber-testng', version: '1.2.5'
 }
 
 // Force checks on build and test tasks.
